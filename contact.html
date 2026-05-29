@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio BUT Réseaux & Télécommunications : SAÉ, apprentissages critiques (AC), bilans par compétence et projection professionnelle." />
+  <meta name="author" content="Ton Nom" />
+  <title>Contact · Portfolio — BUT Réseaux & Télécommunications (Parcours Cyber)</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a class="brand-link" href="index.html" aria-label="Retour à l'accueil">
+          <span class="brand-mark" aria-hidden="true">◆</span>
+          <span class="brand-text">Portfolio R&amp;T</span>
+        </a>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="sr-only">Ouvrir le menu</span>
+        <span class="burger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="nav" class="site-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="presentation.html">Présentation &amp; projection</a></li>
+          <li class="has-sub">
+            <a href="sae.html" aria-haspopup="true">SAÉ</a>
+            <ul class="sub" aria-label="Sous-menu SAÉ">
+              <li><a href="sae.html#s1">S1</a></li>
+              <li><a href="sae.html#s2">S2</a></li>
+              <li><a href="sae.html#s3">S3</a></li>
+              <li><a href="sae.html#s4">S4</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <a href="bilans.html" aria-haspopup="true">Bilans</a>
+            <ul class="sub" aria-label="Sous-menu bilans">
+              <li><a href="bilans.html#s1">S1</a></li>
+              <li><a href="bilans.html#s2">S2</a></li>
+              <li><a href="bilans.html#s3">S3</a></li>
+              <li><a href="bilans.html#s4">S4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="container">
+    <header class="page-head">
+      <h1>Contact</h1>
+      <p class="lead">Pour toute question ou échange professionnel.</p>
+    </header>
+
+    <section class="card">
+      <form class="form" action="#" method="post">
+        <div class="field">
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" type="text" autocomplete="name" required />
+        </div>
+        <!-- <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+        </div> -->
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button class="btn" type="submit">Envoyer</button>
+        <!-- <p class="muted">(Formulaire non connecté : à relier à un service ou à un mailto si besoin.)</p> -->
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>Portfolio BUT R&amp;T</strong> — construit autour des SAÉ, des Apprentissages Critiques (AC) et des bilans par compétence.</p>
+      <p class="muted">© <span id="year"></span> — Lucas BARROUX · <a href="mentions.html">Mentions</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
